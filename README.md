@@ -10,7 +10,7 @@ cd backend
 npm i
 node fancy-nlp-server.js 3010
 ```
-3. Send the training request see _train.REST file 
+3. Send the training request see _train.REST file (easy with the vs code REST extension)
 
 4. Create a folder named operational-data and create a file named messages.json
 ```sh
