@@ -19,4 +19,4 @@ cd operational-data
 echo "[]" > messages.json
 ```
 
-5. open http://localhost:3010 and start chatting with your bot
+5. open http://localhost:3010 or https://fancy-flashcard.github.io/chatbot/ and start chatting with your bot
