@@ -1,5 +1,6 @@
 # Chatbot
 
+You can access the [FFC Chatbot](https://fancy-flashcard.github.io/chatbot/) and train it with your educational [FFC Decks](https://github.com/fancy-flashcard/wirtschaftsinformatik).
 
 ## How it works for Developers
 
@@ -9,15 +10,13 @@ cd backend
 npm i
 node fancy-nlp-server.js 3010
 ```
-3. Send the training request see _train.REST file and copy the client ID from the response
+3. Send the training request see _train.REST file 
 
-4. Replace the client ID whereever you request a chatbot response
-
-5. Create a folder named operational-data and create a file named messages.json
+4. Create a folder named operational-data and create a file named messages.json
 ```sh
 mkdir operational-data
 cd operational-data
 echo "[]" > messages.json
-````
+```
 
-6. open http://localhost:3010 and start chatting with your bot
+5. open http://localhost:3010 and start chatting with your bot
